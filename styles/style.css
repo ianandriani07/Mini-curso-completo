@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Garante que o body ocupe 100% da altura da tela */
+}
+
+main {
+    display: flex;
+    flex-direction: column; /* Coloca os elementos na vertical */
+    align-items: center; /* Centraliza horizontalmente */
+    justify-content: center; /* Centraliza verticalmente */
+    height: 100vh; /* Faz o main ocupar a altura total da tela */
+}
